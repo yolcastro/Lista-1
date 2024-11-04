@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	float x;
+	printf("Digite um número real:\n");
+	scanf("%f", &x);
+	
+  int y;
+	y = x;
+	
+  printf("Número real: %.2f\n", x);
+	printf("Número inteiro: %d\n", y);
+
+	return 0;
+}
